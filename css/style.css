@@ -1,11 +1,46 @@
 .pink{
-color:#ff007f;
+color:#f6358a;
 font-family:'Comic Sans MS', cursive
  }
  
+ .light-bg{
+	   background-color:#555}
+	   
+ .dark-bg{
+	   background-color:#333}
+ 
+ .baby-pink td{
+	 color:#f97cb3;
+font-family:'Comic Sans MS', cursive
+ 
+	 }
+
+.my-profile {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/about.png);
+  left: 0;
+  top: 0;
+  height: 100%;
+  opacity:0.4
+}
+.no-padding{
+	padding:0}
+
+.margin-10{
+	margin-left:5%;
+	margin-right:5%;
+	}	
+.no-margin{
+	margin:0}
+ 
  .icon{
-    margin : 2% 1% 2% 1%
+    margin : 2% 1% 2% 1%;
  }
+ .small_icon{
+	  width:22px;
+	  height:20px}
  
  .parallax-section {
 height: 98%;
@@ -27,4 +62,3 @@ height: 98%;
 @media (max-width: 650px) {
     .parallax-section{ background-image:  url(../images/adi.jpg); height: 300px; }
 }
-Yo
